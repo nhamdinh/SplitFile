@@ -4,26 +4,36 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    static Scanner scanner = new Scanner(System.in);
-    private static final String PATH_FILE_INPUT = "/home/tom/Desktop/HotelCalifornia.mp3";
-    private static final String PATH_OUTPUT = "/home/tom/Desktop/day6/";
-
+    private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
-
-        do {
-
-            System.out.println("nhap number file: ");
-            int numberFile = scanner.nextInt();
-
-
-            SplitFile sp = new SplitFile();
-            sp.splitFileByNumBer(PATH_FILE_INPUT, PATH_OUTPUT, numberFile);
-
-            System.out.println("cat duoc "+numberFile+" files");
-            System.out.println("DONE!!!");
-            System.out.println("Link file: " + PATH_OUTPUT);
-
+        String choose;
+        boolean exit = false;
+        SplitFile splitFile = new SplitFile();
+        JoinFile joinFile = new JoinFile();
+        FileManager.showMenu();
+        while (true) {
+            choose = scanner.nextLine();
+            switch (choose) {
+                case "1":
+                    splitFile.splitFileBySize();
+                    break;
+                case "2":
+                    splitFile.splitFileByNumBer();
+                    break;
+                case "3":
+                    joinFile.joined();
+                    break;
+                case "0":
+                    System.out.println("Exit!!!");
+                    exit = true;
+                    break;
+                default:
+                    System.out.println("Invalid! please choose action in below menu:");
+            }
+            if (exit) {
+                break;
+            }
+            FileManager.showMenu();
         }
-        while (true);
     }
 }
