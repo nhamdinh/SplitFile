@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef49f4c8-2b59-42d2-a7c6-0989b9413a87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/catfile/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/catfile/com/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/catfile/com/SplitFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/catfile/com/SplitFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SplitFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SplitFile.java" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ef49f4c8-2b59-42d2-a7c6-0989b9413a87" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1XgySlLCKlMQoKV44w1VGdWwyrk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,18 +23,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -103,23 +84,15 @@
       <workItem from="1581609732562" duration="4150000" />
       <workItem from="1581614030648" duration="17215000" />
       <workItem from="1581643529932" duration="1162000" />
-      <workItem from="1581619854798" duration="13000" />
+      <workItem from="1581662847317" duration="3741000" />
+      <workItem from="1581667061859" duration="609000" />
+      <workItem from="1581671727479" duration="209000" />
+      <workItem from="1581672183828" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581628342753">
@@ -134,22 +107,22 @@
       <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state x="254" y="27" width="896" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/59.27.1307.741@59.27.1307.741" timestamp="1581611417846" />
-    <state width="1261" height="247" key="GridCell.Tab.0.bottom" timestamp="1581638318067">
+    <state width="1261" height="253" key="GridCell.Tab.0.bottom" timestamp="1581672640806">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state width="1261" height="247" key="GridCell.Tab.0.bottom/59.27.1307.741@59.27.1307.741" timestamp="1581638318067" />
-    <state width="1261" height="247" key="GridCell.Tab.0.center" timestamp="1581638318066">
+    <state width="1261" height="253" key="GridCell.Tab.0.bottom/59.27.1307.741@59.27.1307.741" timestamp="1581672640806" />
+    <state width="1261" height="253" key="GridCell.Tab.0.center" timestamp="1581672640805">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state width="1261" height="247" key="GridCell.Tab.0.center/59.27.1307.741@59.27.1307.741" timestamp="1581638318066" />
-    <state width="1261" height="247" key="GridCell.Tab.0.left" timestamp="1581638318065">
+    <state width="1261" height="253" key="GridCell.Tab.0.center/59.27.1307.741@59.27.1307.741" timestamp="1581672640805" />
+    <state width="1261" height="253" key="GridCell.Tab.0.left" timestamp="1581672640805">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state width="1261" height="247" key="GridCell.Tab.0.left/59.27.1307.741@59.27.1307.741" timestamp="1581638318065" />
-    <state width="1261" height="247" key="GridCell.Tab.0.right" timestamp="1581638318067">
+    <state width="1261" height="253" key="GridCell.Tab.0.left/59.27.1307.741@59.27.1307.741" timestamp="1581672640805" />
+    <state width="1261" height="253" key="GridCell.Tab.0.right" timestamp="1581672640806">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state width="1261" height="247" key="GridCell.Tab.0.right/59.27.1307.741@59.27.1307.741" timestamp="1581638318067" />
+    <state width="1261" height="253" key="GridCell.Tab.0.right/59.27.1307.741@59.27.1307.741" timestamp="1581672640806" />
     <state width="1261" height="219" key="GridCell.Tab.1.bottom" timestamp="1581584427728">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
@@ -166,18 +139,22 @@
       <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state width="1261" height="219" key="GridCell.Tab.1.right/59.27.1307.741@59.27.1307.741" timestamp="1581584427727" />
-    <state x="159" y="125" width="1097" height="543" maximized="true" key="dock-window-1" timestamp="1581643939714">
+    <state x="195" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1581671757977">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state x="159" y="125" width="1097" height="543" maximized="true" key="dock-window-1/59.27.1307.741@59.27.1307.741" timestamp="1581643939714" />
-    <state x="159" y="125" width="1107" height="543" key="dock-window-2" timestamp="1581627385100">
+    <state x="195" y="27" width="1024" height="741" key="SettingsEditor/59.27.1307.741@59.27.1307.741" timestamp="1581671757977" />
+    <state x="159" y="125" width="1097" height="543" maximized="true" key="dock-window-1" timestamp="1581664795785">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state x="159" y="125" width="1107" height="543" key="dock-window-2/59.27.1307.741@59.27.1307.741" timestamp="1581627385100" />
-    <state x="159" y="125" width="1107" height="543" maximized="true" key="dock-window-3" timestamp="1581628062162">
+    <state x="159" y="125" width="1097" height="543" maximized="true" key="dock-window-1/59.27.1307.741@59.27.1307.741" timestamp="1581664795785" />
+    <state x="159" y="125" width="1107" height="543" key="dock-window-2" timestamp="1581663880840">
       <screen x="59" y="27" width="1307" height="741" />
     </state>
-    <state x="159" y="125" width="1107" height="543" maximized="true" key="dock-window-3/59.27.1307.741@59.27.1307.741" timestamp="1581628062162" />
+    <state x="159" y="125" width="1107" height="543" key="dock-window-2/59.27.1307.741@59.27.1307.741" timestamp="1581663880840" />
+    <state x="159" y="125" width="1107" height="543" key="dock-window-3" timestamp="1581667083305">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="159" y="125" width="1107" height="543" key="dock-window-3/59.27.1307.741@59.27.1307.741" timestamp="1581667083305" />
     <state x="759" y="97" width="1107" height="543" key="dock-window-4" timestamp="1581630729899">
       <screen x="59" y="27" width="1307" height="741" />
     </state>

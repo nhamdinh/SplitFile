@@ -16,25 +16,28 @@ public class JoinFile {
             System.out.println("Enter path FILE output: ");
             PATH_OUTPUT = scanner.nextLine();
 
-            byte[] arr = new byte[1024];
 //            /**lay index tu 0 den het string*/
-            int lastDotIndexPart = PATH_FILE_INPUT.lastIndexOf(".");
+            int indexLastDotPath = PATH_FILE_INPUT.lastIndexOf(".");
 
-            String fileName = PATH_FILE_INPUT.substring(0, lastDotIndexPart);
+            String fileName = PATH_FILE_INPUT.substring(0, indexLastDotPath);
 
-            String suffixPart = PATH_FILE_INPUT.substring(lastDotIndexPart + 1);
+            String suffixPath = PATH_FILE_INPUT.substring(indexLastDotPath + 1);
 
-            OutputStream outputStream = new FileOutputStream(PATH_OUTPUT);
+            File fileOutputJoin = new File(PATH_OUTPUT);
+            OutputStream outputStream = new FileOutputStream(fileOutputJoin);
+
+            byte[] arr = new byte[1024];
             int partIndex = 1;
             String fileNameParts = null;
             while (true) {
-                if (suffixPart.startsWith("part")) {
+                if (suffixPath.startsWith("part")) {
                     fileNameParts = fileName + ".part" + partIndex;
                 }
                 File fileParts = new File(fileNameParts);
                 if (fileParts.exists()) {
                     InputStream inputStream = new FileInputStream(fileNameParts);
-                    while (inputStream.available() != 0) {
+                    int isCheckDataExist;
+                    while ((isCheckDataExist = inputStream.available()) != 0) {
                         final int READ_ONE_KB = inputStream.read(arr);
                         outputStream.write(arr, 0, READ_ONE_KB);
                     }
